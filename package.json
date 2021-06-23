@@ -8,9 +8,9 @@
   "type": "commonjs",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts",
-    "dev": "nodemon --exec ts-node src/index.ts",
-    "build": "node src/index.ts"
+    "start": "ts-node --respawn src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts --watch src",
+    "build": "node --exec ts-node src/index.ts"
   },
   "keywords": [
     "node",
