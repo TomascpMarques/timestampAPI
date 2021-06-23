@@ -5,6 +5,7 @@
   "engines": {
     "node": "v14.x"
   },
+  "type": "commonjs",
   "main": "index.ts",
   "scripts": {
     "start": "ts-node-dev --respawn src/index.ts",
